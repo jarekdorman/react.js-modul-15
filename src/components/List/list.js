@@ -17,7 +17,6 @@ class List extends React.Component {
 
   static defaultProps = {
     description: settings.defaultListDescription,
-    // image:  listData.image,
   };
 
   state = {
