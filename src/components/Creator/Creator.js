@@ -6,6 +6,7 @@ import PropTypes from 'prop-types';
 class Creator extends React.Component {
   static propTypes = {
     text: PropTypes.string,
+    action: PropTypes.func,
   };
 
   static defaultProps = {
@@ -66,5 +67,6 @@ class Creator extends React.Component {
     );
   }
 }
+
 
 export default Creator;
