@@ -1,9 +1,9 @@
 import { connect } from 'react-redux';
-import List from './List';
+import List from './list';
 import {
   getColumnsForList,
   createActionAddColumn,
-} from '../../Redux/columnsRedux.js';
+} from '../../redux/columnsRedux.js';
 
 const mapStateToProps = (state, props) => ({
   columns: getColumnsForList(state, props.id),
