@@ -22,7 +22,7 @@ export const pageContents = {
 export const listData = {
   title: 'Things to do <sup>soon!</sup>',
   description: 'Interesting things I want to check out!',
-  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  image: 'https://png.pngtree.com/png-clipart/20190618/original/pngtree-nebula-starry-sky-star-space-png-image_3924826.jpg',
   columns: [
     {
       key: 0,
@@ -113,31 +113,37 @@ const cards = [
     id: 'card-1',
     columnId: 'column-1',
     title: 'This Is Going to Hurt',
+    index: 0,
   },
   {
     id: 'card-2',
     columnId: 'column-1',
     title: 'Interpreter of Maladies',
+    index: 1,
   },
   {
     id: 'card-3',
     columnId: 'column-2',
     title: 'Harry Potter',
+    index: 0,
   },
   {
     id: 'card-4',
     columnId: 'column-2',
     title: 'Star Wars',
+    index: 1,
   },
   {
     id: 'card-5',
     columnId: 'column-3',
     title: 'The Witcher',
+    index: 0,
   },
   {
     id: 'card-6',
     columnId: 'column-3',
     title: 'Skyrim',
+    index: 1,
   },
 ];
 
