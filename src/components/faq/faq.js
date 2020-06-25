@@ -6,7 +6,7 @@ import styles from './faq.scss';
 
 const Faq = () => (
   <Container>
-    <Hero titleText={faqContent.title} image={faqContent.defaultImage} />
+    <Hero titleText={faqContent.title} image={faqContent.defaultImage}/>
     <p>{faqContent.description}</p>
     {Object.keys(faqContent.qa).map((item) => {
       return (

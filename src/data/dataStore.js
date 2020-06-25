@@ -109,6 +109,18 @@ const lists = [
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
+  {
+    id: 'list-2',
+    title: 'Upcoming charges',
+    description: 'It must be paid...',
+    image: 'https://previews.123rf.com/images/milosz7/milosz71012/milosz7101200013/8509393-close-up-of-american-currency-money-bills.jpg',
+  },
+  {
+    id: 'list-3',
+    title: 'Vacation',
+    description: 'Vacation checklist...',
+    image: 'https://dvapvh58pp4t7.cloudfront.net/1/dreamtrips/Media/worldventures/Albums/297fd98b-54a6-4699-8099-ba1d31a881e1/o_20190402101934521_OC_FrenchPolynesia_Tahiti_Beach_1.jpg',
+  },
 ];
 
 const columns = [
