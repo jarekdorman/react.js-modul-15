@@ -10,6 +10,7 @@ class Home extends React.Component {
   state = {
     lists: listData || [],
   };
+  
   static propTypes = {
     title: PropTypes.node,
     subtitle: PropTypes.node,

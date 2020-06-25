@@ -113,13 +113,15 @@ const lists = [
     id: 'list-2',
     title: 'Upcoming charges',
     description: 'It must be paid...',
-    image: 'https://previews.123rf.com/images/milosz7/milosz71012/milosz7101200013/8509393-close-up-of-american-currency-money-bills.jpg',
+    image:
+      'https://previews.123rf.com/images/milosz7/milosz71012/milosz7101200013/8509393-close-up-of-american-currency-money-bills.jpg',
   },
   {
     id: 'list-3',
     title: 'Vacation',
     description: 'Vacation checklist...',
-    image: 'https://dvapvh58pp4t7.cloudfront.net/1/dreamtrips/Media/worldventures/Albums/297fd98b-54a6-4699-8099-ba1d31a881e1/o_20190402101934521_OC_FrenchPolynesia_Tahiti_Beach_1.jpg',
+    image:
+      'https://dvapvh58pp4t7.cloudfront.net/1/dreamtrips/Media/worldventures/Albums/297fd98b-54a6-4699-8099-ba1d31a881e1/o_20190402101934521_OC_FrenchPolynesia_Tahiti_Beach_1.jpg',
   },
 ];
 
@@ -148,6 +150,24 @@ const columns = [
     title: 'Strange column',
     icon: 'question',
   },
+  {
+    id: 'column-5',
+    listId: 'list-2',
+    title: 'Children',
+    icon: 'person',
+  },
+  {
+    id: 'column-6',
+    listId: 'list-2',
+    title: 'Car',
+    icon: 'car',
+  },
+  {
+    id: 'column-7',
+    listId: 'list-3',
+    title: 'Europe',
+    icon: 'world',
+  },	  
 ];
 
 const cards = [
@@ -186,6 +206,68 @@ const cards = [
     columnId: 'column-3',
     title: 'Skyrim',
     index: 1,
+  },
+
+  {
+    id: 'card-7',
+    columnId: 'column-3',
+    title: 'Skyrim',
+    index: 1,
+  },
+
+  {
+    id: 'card-8',
+    columnId: 'column-4',
+    title: 'Electricity',
+    index: 0,
+  },
+  {
+    id: 'card-9',
+    columnId: 'column-4',
+    title: 'Internet',
+    index: 1,
+  },
+  {
+    id: 'card-10',
+    columnId: 'column-4',
+    title: 'Heating',
+    index: 2,
+  },
+  {
+    id: 'card-11',
+    columnId: 'column-5',
+    title: 'English lessons',
+    index: 0,
+  },
+  {
+    id: 'card-12',
+    columnId: 'column-5',
+    title: 'Ski',
+    index: 1,
+  },
+  {
+    id: 'card-13',
+    columnId: 'column-6',
+    title: 'Repair',
+    index: 0,
+  },
+  {
+    id: 'card-14',
+    columnId: 'column-7',
+    title: 'Porto',
+    index: 0,
+  },
+  {
+    id: 'card-15',
+    columnId: 'column-7',
+    title: 'Iceland',
+    index: 1,
+  },
+  {
+    id: 'card-16',
+    columnId: 'column-7',
+    title: 'Tatra Mountains',
+    index: 2,
   },
 ];
 
