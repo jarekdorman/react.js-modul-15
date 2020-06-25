@@ -254,19 +254,19 @@ const cards = [
   {
     id: 'card-14',
     columnId: 'column-7',
-    title: 'Porto',
+    title: 'Thailand',
     index: 0,
   },
   {
     id: 'card-15',
     columnId: 'column-7',
-    title: 'Iceland',
+    title: 'Philippines',
     index: 1,
   },
   {
     id: 'card-16',
     columnId: 'column-7',
-    title: 'Tatra Mountains',
+    title: 'Malaysia',
     index: 2,
   },
 ];
