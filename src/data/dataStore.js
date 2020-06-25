@@ -10,6 +10,8 @@ export const settings = {
     defaultText: 'Search...',
     icon: 'search',
   },
+
+  defaultImage: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
 };
@@ -19,10 +21,38 @@ export const pageContents = {
   subtitle: 'A simple to-do app, with lists, columns and cards',
 };
 
+export const faqContent = {
+  defaultImage: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  title: 'FAQ',
+  description: 'Before you ask see frequently asked questions',
+  qa: {
+    qa1: {
+      question: 'Can I add custom Column?',
+      answer: 'Yes, just insert column title and click OK',
+    },
+    qa2: {
+      question: 'Can I add custom card?',
+      answer: 'Yes, just insert card title and click OK',
+    },
+    qa3: {
+      question: 'Can I add custom list?',
+      answer: 'We  are workig on this, will be available soon',
+    },
+  },
+};
+
+export const infoContent = {
+  defaultImage: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  title: 'About me',
+  description:
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+};
+
 export const listData = {
   title: 'Things to do <sup>soon!</sup>',
   description: 'Interesting things I want to check out!',
-  image: 'https://png.pngtree.com/png-clipart/20190618/original/pngtree-nebula-starry-sky-star-space-png-image_3924826.jpg',
+  image:
+    'https://png.pngtree.com/png-clipart/20190618/original/pngtree-nebula-starry-sky-star-space-png-image_3924826.jpg',
   columns: [
     {
       key: 0,

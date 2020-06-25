@@ -15,16 +15,12 @@ class Home extends React.Component {
 
   render() {
     const { title, subtitle, lists } = this.props;
-    const moveCardHandler = result => {
-      if(
-        result.destination
-        &&
-        (
-          result.destination.index != result.source.index
-          ||
-          result.destination.droppableId != result.source.droppableId
-        )
-      ){
+    const moveCardHandler = (result) => {
+      if (
+        result.destination &&
+        (result.destination.index != result.source.index ||
+          result.destination.droppableId != result.source.droppableId)
+      ) {
         console.log({
           id: result.draggableId,
           dest: {
